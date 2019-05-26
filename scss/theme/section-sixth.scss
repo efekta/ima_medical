@@ -1,0 +1,85 @@
+.section-sixth {
+	position: relative;
+	padding-bottom: 70px;
+	// min-height: 885px;
+	// background: url("../img/content/section-6-bg.png") no-repeat;
+	// background-size: cover;
+}
+.title-box-sixth {
+	text-align: left;
+	margin: 0 20px;
+}
+.title-sixth {
+	color: $black-gray;
+	font-family: "robotoregular";
+	padding: 60px 0 40px 0;
+}
+// accordion
+.accordion-container {
+  position: relative;
+  width: 50%;
+  height: auto;
+  margin: 0 20px;
+  z-index: 2;
+}
+.set {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.set > span {
+  display: block;
+  text-transform: uppercase;
+  color: $basic-font-color;
+  font-size: 20px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+.set > span:hover {
+  color: $basic-green;
+  border-bottom: 2px solid $basic-green;
+}
+
+.set-number {
+	color: $basic-green;
+	font-size: 36px;
+	font-family: "robotoblack";
+	display: inline-block;
+	height: 35px;
+  overflow: hidden;
+}
+.set-text {
+	display: inline-block;
+	margin-left: 20px;
+}
+.set > span.active {
+  color: $basic-green;
+  font-family: "robotobold";
+  border-bottom: 2px solid $basic-green;
+}
+.content {
+  // border-top: 2px solid $basic-green;
+  display:none;
+}
+.content p {
+  padding: 10px 0 10px 70px;
+  margin: 0;
+  // color: #333;
+}
+// end accordion
+.section-sixth-wrapp {
+	display: flex;
+	justify-content: space-between;
+}
+.section-sixth .box-pic{
+    position: absolute;
+    right: 0;
+    top: -100px;
+}
+.content-active {
+  display: block;
+}

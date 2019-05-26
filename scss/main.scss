@@ -1,0 +1,34 @@
+$footer-bg: #ededed;
+$footer-border-bottom: rgb(172, 172, 172);
+$basic-font-color: #000;
+$basic-green: #84b94d;
+$white: #fff;
+$black-gray: #4c4c4c;
+$bg-form-black-gray: #acacac;
+
+// laout
+@import "../libs/bootstrap/scss/bootstrap-reboot";
+@import "../libs/bootstrap/scss/modal";
+@import "../libs/slick/slick.scss";
+@import "../libs/slick/slick-theme.scss";
+@import "../libs/fancybox/jquery.fancybox.scss";
+@import "../scss/theme/normalize.scss";
+@import "../scss/theme/font-awesome.scss";
+@import "../scss/theme/fonts.scss";
+@import "../scss/theme/setting.scss";
+@import "../scss/theme/header.scss";
+@import "../scss/theme/section-first.scss";
+@import "../scss/theme/section-second.scss";
+@import "../scss/theme/section-third.scss";
+@import "../scss/theme/section-fourth.scss";
+@import "../scss/theme/section-fifth.scss";
+@import "../scss/theme/section-sixth.scss";
+@import "../scss/theme/section-seventh.scss";
+@import "../scss/theme/section-eighth.scss";
+@import "../scss/theme/section-ninth.scss";
+@import "../scss/theme/section-feedback.scss";
+@import "../scss/theme/footer.scss";
+@import "../scss/theme/modal.scss";
+@import "../scss/theme/adaptive.scss";
+
+

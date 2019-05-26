@@ -1,0 +1,134 @@
+.section-fifth {
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+  // background-size: cover;
+  background-image: -moz-linear-gradient( 90deg, rgb(226,224,224) 0%, rgb(255,255,255) 75%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(226,224,224) 0%, rgb(255,255,255) 75%);
+  background-image: -ms-linear-gradient( 90deg, rgb(226,224,224) 0%, rgb(255,255,255) 75%);
+}
+.title-box-fifth {
+	max-width: 384px;
+	margin: 0 auto;
+}
+.ico-fifth {
+	width: 120px;
+}
+.fifth-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // margin-right: -21px;
+    // margin-left: -21px;
+    text-align: center;
+}
+
+.fifth-wrapper .fifth-inner {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.3%;
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+    cursor: pointer;
+    border-left: 2px solid rgb(204, 204, 204);
+}
+.fifth-wrapper .fifth-inner .fifth-icon-wrapper {
+    // border-left: 2px solid rgb(204, 204, 204);
+    // border-right: 2px solid rgb(204, 204, 204);
+    min-height: 200px;
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -khtml-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    -o-transition: transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+}
+.fifth-wrapper .fifth-inner:hover .fifth-icon-wrapper {
+    -webkit-transform: rotateY(180deg);
+    -khtml-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.fifth-wrapper .fifth-inner:hover .fifth-icon-wrapper .icon-pic {
+    opacity: 0;
+}
+
+.fifth-wrapper .fifth-inner .fifth-icon-wrapper div.icon-pic {
+    opacity: 1;
+    -webkit-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+}
+.fifth-wrapper .fifth-inner .fifth-icon-wrapper div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    ine-height: 200px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.fifth-wrapper .fifth-inner:hover .fifth-icon-wrapper .fifth-wrapper-content {
+    opacity: 1;
+}
+.fifth-wrapper .fifth-inner .fifth-icon-wrapper div.fifth-wrapper-content {
+    min-height: 200px;
+    background-color: $basic-green;
+    line-height: 1.5em;
+    margin: -4px;
+    padding: 55px 13px 55px 13px;
+    // -webkit-box-sizing: content-box;
+    // box-sizing: content-box;
+    display: table;
+    opacity: 0;
+    -webkit-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+    -webkit-transform: rotateY(180deg);
+    -khtml-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    color: $white;
+}
+.fifth-wrapper .fifth-inner .fifth-icon-wrapper div.fifth-wrapper-content p {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0 5px;
+    line-height: 1.3em;
+}
+.fifth-inner:hover {
+    border-left: none;
+}
+.ico-fifth img {
+    width: auto;
+    height: auto;
+}
+.fifth-icon-wrapper div .ico-fifth img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.fifth-desc span {
+    width: 50%;
+    margin: 30px 0 10px 0;
+    display: flex;
+    align-self: flex-end;
+}

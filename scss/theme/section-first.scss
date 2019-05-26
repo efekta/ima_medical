@@ -1,0 +1,113 @@
+.section-first {
+	position: relative;
+	height: 100vh;
+	min-height: 650px;
+	// margin-top: 183px;
+	border-bottom: 2px solid rgb(226, 224, 224);
+}
+.slider, 
+.slider__item,
+.slider__bg,
+.slider__mask,
+.slider__mask	.container,
+.slider__content {
+	height: 100%;
+}
+.slider {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.slick-list, .slick-list * {
+	height: 100%;
+}
+.slider-ico {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+	cursor: pointer;
+	font-size: 100px;
+	color: #fff;
+	text-shadow: 0px 9px 24px rgba(0, 0, 0, 0.5);
+	line-height: 0.3;
+  text-align: left;
+}
+.slider-ico__right {
+	right: 3%;
+}
+.slider-ico__left {
+	left: 3%;
+}
+.slider__content {
+	// display: flex;
+	// flex-direction: column;
+	// align-items: center;
+	// height: 100%;
+	// padding-top: 380px;
+	// margin-top: auto;
+}
+.slider-box-title {
+	// position: relative;
+	// z-index: 2;
+	width: 50%;
+	margin-bottom: 40px;
+	font-size: 24px;
+	// height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.slider__content_desc {
+	height: auto;
+}
+.slider-title {
+	font-size: 59px;
+	font-family: "robotomedium";
+	line-height: 115%;
+	color: $black-gray;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	height: auto;
+}
+
+.slider-green-title {
+	font-family: "robotobold";
+	color: $basic-green;
+	display: block;
+}
+// .slider-mobail {
+// 	display: none;
+// }
+.slider__bg {
+// 		position: absolute;
+//     top: 0;
+//     right: 0;
+//     width: 100%;
+//     height: 100%;
+    // background: url(../img/content/happy.jpg) no-repeat 50% 50%;
+//     background-size: cover;
+ background-size: auto 100%;
+ background-position: right top;
+ background-repeat: no-repeat;
+}
+.slider__mask {
+// 		position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: url(../img/bg/bg-mask.png) no-repeat;
+background-size: 100% 100%;
+background-position: left top;
+background-repeat: no-repeat;
+
+// background-size: 134% 100%;
+// background-position: right center;
+}
+
+
+//mob version
+

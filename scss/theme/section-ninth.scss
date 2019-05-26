@@ -1,0 +1,116 @@
+.section-ninth {
+  background-image: url("../img/bg/opacity-green-bg-1.jpg");
+  background-repeat: no-repeat;
+  // background-position-y: 100%;
+  // background-position-x: 0, 100%;
+  // padding-bottom: 90px;
+	background-attachment: fixed;
+	// background-size: 100%;
+	background-size: cover;
+	height: 100%;
+}
+.section-feedback-bg-feed {
+	background-image: url("../img/bg/feed.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	// background-size: 100% 100%;
+}
+// .section-ninth {
+//   background-image: url("../img/bg/opacity-green-bg-1.jpg");
+//   background-repeat: no-repeat;
+//   background-position: 0 0;
+//   // padding-bottom: 90px;
+// }
+// .section-ninth {
+//  background-image: url("../img/bg/opacity-green-bg-1.jpg");
+//  background-repeat: no-repeat;
+//  background-position: top center;
+ // background-size: cover;
+ // padding-bottom: 140px;
+// }
+// .section-ninth_active {
+// 	background-image: url("../img/bg/ac-bg.png");
+//   background-repeat: no-repeat;
+//   background-position: top center;
+//   background-size: cover;
+//   padding-bottom: 140px;
+// }
+//box-accordion
+// .box-accordion {
+// 	padding-bottom: 100px;
+// }
+.box-accordion .content {
+  border-top: none;
+}
+.box-accordion .set-number {
+  height: auto;
+  overflow: visible;
+  vertical-align: middle;
+  font-size: 18px;
+}
+// i.min-ico {
+// 	display: none;
+// }
+// .box-accordion .set-number i.min-ico-hide {
+//  	display: none;
+// } 
+
+// .box-accordion .set-number i.min-ico-show {
+// 	display: block;
+// }
+// .box-accordion .set-number i.max-ico-hide {
+// 	display: none;
+// }
+.box-accordion .set > span {
+  border: 2px solid $basic-green;
+  padding: 20px 35px;
+  border-radius: 55px;
+}
+.box-accordion .set-text {
+	color: $basic-green;
+	font-size: 20px;
+	font-family: "robotobold";
+}
+.set-box-btn {
+	text-align: center;
+	padding-bottom: 100px;
+}
+.set-box-btn button {
+	padding: 15px 35px;
+	font-family: "robotobold";
+	font-size: 20px;
+	border-radius: 35px;
+	margin: 35px 0;
+}
+.set-hide {
+	display: none;
+}
+.set {
+	-webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.set-show {
+	display: block;
+}
+.box-accordion .set > span:hover {
+	background: $basic-green;
+}
+
+.box-accordion .set > span:hover .set-number {
+	color: $white;
+}
+.box-accordion .set > span:hover .set-text {
+	color: $white;
+}
+.box-accordion .set > span.active,
+.box-accordion .set > span.active .set-number,
+.box-accordion .set > span.active .set-text {
+	color: $white;
+	background: $basic-green;
+}
+.section-feedback .title {
+	margin-top: 100px;
+	padding: 0;
+}
